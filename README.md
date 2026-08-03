@@ -4,7 +4,7 @@ From PID Control to Embodied Intelligence: Building the Execution Foundation of 
 
 Overview
 
-![Hardware](./images/hardware.jpg)
+<img src="hardware.jpg"/>
 
 
 This project presents a complete embedded DC motor servo control system developed from hardware design to closed-loop control implementation.
