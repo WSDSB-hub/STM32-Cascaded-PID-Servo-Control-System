@@ -60,7 +60,7 @@ The inner velocity loop provides fast response, while the outer position loop en
 
 3. Hardware Platform
 
-<img scr="Firmware Implementation.drawio.png"/>
+<img scr="Hardware Platform.drawio.png"/>
 
 
 The hardware platform was intentionally designed to provide direct understanding of the complete control pipeline.
@@ -74,7 +74,7 @@ Instead of using Arduino libraries or existing motor control frameworks, all per
 The embedded firmware consists of several functional modules:
 Firmware Architecture
 
-<img src="Hardware Platform.drawio.png"/>
+<img src="Firmware Implementation.drawio.png"/>
 
 4.1 Encoder Feedback Acquisition
 
