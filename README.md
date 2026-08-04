@@ -60,7 +60,8 @@ The inner velocity loop provides fast response, while the outer position loop en
 
 3. Hardware Platform
 
-<img scr="Hardware Platform.drawio.png"/>
+
+ <img scr="Hardware Platform.drawio.png"/>
 
 
 The hardware platform was intentionally designed to provide direct understanding of the complete control pipeline.
