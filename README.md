@@ -46,35 +46,8 @@ The cascaded PID structure implemented in this project is widely used in robotic
 
 2. System Architecture
 
-The overall control architecture follows a classical cascaded feedback control structure.
-          Target Position
-                |
-                v
-      +-------------------+
-      |  Position PID     |
-      +-------------------+
-                |
-         Target Velocity
-                |
-                v
-      +-------------------+
-      |  Velocity PID     |
-      +-------------------+
-                |
-                v
-          PWM Output
-                |
-                v
-      TB6612 Motor Driver
-                |
-                v
-          DC Motor
-                |
-                v
-      Encoder Feedback
-                |
-                v
-   STM32 Timer Encoder Mode
+<img src="_System Architecture.drawio.png"/>
+
    
 The system uses a multi-rate control strategy:
 
