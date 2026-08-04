@@ -60,14 +60,7 @@ The inner velocity loop provides fast response, while the outer position loop en
 
 3. Hardware Platform
 
-| Component     | Specification           |
-| MCU           | STM32F103C8T6           |
-| Architecture  | ARM Cortex-M3           |
-| Clock         | 72MHz                   |
-| Motor Driver  | TB6612FNG               |
-| Motor         | JGB37-520 DC Gear Motor |
-| Encoder       | Hall Encoder            |
-| Communication | UART + CH340            |
+<img scr="Firmware Implementation.drawio.png"/>
 
 
 The hardware platform was intentionally designed to provide direct understanding of the complete control pipeline.
@@ -81,15 +74,7 @@ Instead of using Arduino libraries or existing motor control frameworks, all per
 The embedded firmware consists of several functional modules:
 Firmware Architecture
 
-├── Encoder Acquisition Module
-│
-├── Motor Driver Module
-│
-├── PID Controller Module
-│
-├── UART Debugging Module
-│
-└── Control Scheduler
+<img src="Hardware Platform.drawio.png"/>
 
 4.1 Encoder Feedback Acquisition
 
